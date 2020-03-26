@@ -32,17 +32,31 @@
   <!--this is where the coding starts-->
   <body>
     <div class="overlay-veil"></div>
-    <a herf="#" class="overlay-item-click">Start OV1</a>
-    <a herf="#" class="overlay-item-click">Start OV2</a>
-    <div class="overlay-component">
+    <a herf="#" class="overlay-item-click" data-overlay="1">Start OV1</a>
+    <a herf="#" class="overlay-item-click" data-overlay="2">Start OV2</a>
+    
+    <!-- this is for the overlay itself -->
+    <div class="overlay-component" data-overlayItem="1">
       <div class="closeOverlay">Close</div>
-      <h1>My Overlay</h1>
+      <h1>My Overlay 1</h1>
       <div class="ov-content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
         impedit ducimus? Adipisci libero suscipit cupiditate doloremque vero
         alias. Id dolorem nisi dolor voluptatum similique, aliquam laborum
         maxime obcaecati hic! Odio.
       </div>
+      <!--this is for the second overlay-->
+      
+      <a herf="#" class="overlay-item-click"data-overlay="2">Start OV2</a>
+      <div class="overlay-component" data-overlayItem="2">
+        <div class="closeOverlay">Close</div>
+        <h1>My Overlay 2</h1>
+        <div class="ov-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+          impedit ducimus? Adipisci libero suscipit cupiditate doloremque vero
+          alias. Id dolorem nisi dolor voluptatum similique, aliquam laborum
+          maxime obcaecati hic! Odio.
+        </div>
     </div>
   </body>
 </html>
